@@ -1,0 +1,110 @@
+
+body {
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headerclass {
+  background-color: white;
+  padding: 20px 10px;
+  margin-bottom: 30px;
+}
+.navclass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left img {
+  width: 60px;
+  height: auto;
+}
+.right{
+  display: flex;
+  /* justify-content: space-between;  */
+  gap: 14px;
+  list-style: none;
+}
+.right li:hover{
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-color: hsl(251, 92%, 36%);
+}
+.right li a {
+  text-decoration: none;
+  color:grey;
+  font-size: 18px;
+  /* padding:10px; */
+}
+.right li a:hover {
+  color: black;
+
+}
+.contactbutton {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.contactbutton:hover {
+  background-color: aqua;
+  /* cursor: pointer; */
+ 
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.secondleft {
+  width: 48%;
+}
+.second img {
+  width: 170px;
+  height: auto;
+}
+.second h1 {
+  font-size: 30px;
+}
+.second span {
+  color: rgb(0, 149, 255);
+}
+
+.right p {
+  /* width: 50%; */
+  color: gray;
+  font-size: 17px;
+}
+.right {
+  width: 40%;
+}
+
+.carlist {
+  display: flex;
+  /* justify-content: space-between; */
+  /* gap: 20px; */
+  overflow-x: scroll;
+  border-radius: 10px;
+  height: 100%;
+}
+
+
+.carlist::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.carlist li {
+  list-style: none;
+  /* width: 30%; */
+  height: 150px;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+.carlist li img{
+  width: 200px;
+}
